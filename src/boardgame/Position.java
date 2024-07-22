@@ -11,13 +11,18 @@ public class Position {
 		this.column = column;
 	}
 
-	//methods
+	//methods	
 	@Override
 	public String toString() {
 		return row + ", " + column;
 	}
 	
 	//getter setters
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
+	
 	public Integer getRow() {
 		return row;
 	}
